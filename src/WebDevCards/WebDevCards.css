@@ -1,0 +1,36 @@
+span.card-title {
+    font-size:18px !important;
+    font-weight: bold !important;
+   border-bottom:1px;
+   border-bottom-style:solid;
+   padding-top:10px !important;
+}
+
+i.right{
+    margin-top:5px;
+}
+
+.activator{
+    padding-top:20px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+    span.card-title {
+        font-size:15px !important;
+        font-weight: bold !important;
+        line-height: 20px !important;
+        /* text-align:center !important; */
+        margin-left:-15px !important;
+    }
+    p {
+        margin-left:-15px;
+        font-size: 10px;
+      }
+    i.right{
+        display:none;
+    }
+    div.card{
+        height:170px !important;
+    }
+  }
